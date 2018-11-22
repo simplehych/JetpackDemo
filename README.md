@@ -54,4 +54,6 @@ A: 使用 Kotlin 情况下 build.config 配置如下
     implementation "androidx.room:room-runtime:$rootProject.roomVersion"
     ```
 
+Q: Cleartext HTTP traffic to xxx not permitted解决方法
 
+A: https://developer.android.google.cn/training/articles/security-config

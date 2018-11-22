@@ -36,15 +36,16 @@ abstract class AppRoomDatabase : RoomDatabase() {
                 }).build()
         }
     }
-}
 
-class PopulateDbAsync(private val db: AppRoomDatabase?) : AsyncTask<Unit, Unit, Unit>() {
-    override fun doInBackground(vararg params: Unit?) {
-        db?.let {
-            val wordDao = db.wordDao()
-            wordDao.deleteAll()
-            wordDao.insert(Word("Hello"))
-            wordDao.insert(Word("Word"))
+    class PopulateDbAsync(private val db: AppRoomDatabase?) : AsyncTask<Unit, Unit, Unit>() {
+        override fun doInBackground(vararg params: Unit?) {
+            db?.let {
+                val wordDao = db.wordDao()
+                wordDao.deleteAll()
+                wordDao.insert(Word("Hello"))
+                wordDao.insert(Word("Word"))
+            }
         }
     }
 }
+
