@@ -29,6 +29,14 @@ https://mp.weixin.qq.com/s/4UP-pDs0FK66g1QUQvRN6A
 
 
 
+## Groovy 改成 Kotlin
+
+
+https://docs.gradle.org/current/userguide/build_init_plugin.html
+https://guides.gradle.org/migrating-build-logic-from-groovy-to-kotlin/
+https://docs.gradle.org/current/userguide/build_environment.html
+https://www.jianshu.com/p/8fdfbcf35f0d
+
 ## Q & A
 
 Q: 使用 androidx 代替 support 和 arch 包
